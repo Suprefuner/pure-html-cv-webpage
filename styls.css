@@ -72,11 +72,17 @@ section + section {
 .section__introduction {
   position: relative;
   padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 
 .self-introduction {
   position: relative;
   left: 1rem;
+}
+
+.introduction__header {
+  font-size: 2rem;
+  color: darkgreen;
 }
 
 .introduction__img {
@@ -88,17 +94,13 @@ section + section {
 }
 
 /* ----------------- SKILL AND EXPERIENCE  ----------------- */
-.skill {
-  /* border: 1px solid red; */
-  width: 25%;
-  margin-top: 2rem;
-}
 
-.experience {
-  /* border: 1px solid blue; */
-  width: 60%;
-  margin-left: auto;
-  margin-top: -210px;
+.section__experience {
+  display: flex;
+  padding-top: 3rem;
+}
+.skill {
+  flex: 0 0 50%;
 }
 
 .job--item,
