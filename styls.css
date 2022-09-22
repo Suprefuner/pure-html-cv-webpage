@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(5, 5, 5, 0.3) 10%,
+    white 20%
+  );
+}
+
+.container {
+  padding-inline: 2rem;
+  width: 800px;
+  margin: auto;
+}
+
+.section--heading {
+  color: darkgreen;
+  text-transform: capitalize;
+}
+
+.header {
+  position: relative;
+  z-index: -1;
+  margin: 0 0 -6rem;
+  padding: 2rem 0 8rem;
+
+  background-color: green;
+  background-image: linear-gradient(
+    135deg,
+    transparent 70%,
+    rgba(0, 0, 0, 0.2) 50%
+  );
+  text-align: center;
+  color: white;
+}
+
+section {
+  padding-inline: 2rem;
+}
+
+section + section {
+  border-top: 1px solid green;
+}
+
+/* ----------------- INFORMATION --------------------- */
+.section__info {
+  padding-bottom: 3rem;
+}
+
+.profile-pic {
+  border: 10px inset #555;
+  outline: 12px outset #333;
+}
+
+.info--list {
+  width: 60%;
+  /* border: 1px solid red; */
+  margin-top: -7rem;
+  margin-left: auto;
+}
+.span--title {
+  display: inline-block;
+  width: 15%;
+}
+
+.span--content {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ----------------- INTRODUCTION --------------------- */
+.section__introduction {
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.self-introduction {
+  position: relative;
+  left: 1rem;
+}
+
+.introduction__img {
+  position: absolute;
+  width: 30%;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: -1;
+}
+
+/* ----------------- SKILL AND EXPERIENCE  ----------------- */
+.skill {
+  /* border: 1px solid red; */
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.experience {
+  /* border: 1px solid blue; */
+  width: 60%;
+  margin-left: auto;
+  margin-top: -210px;
+}
+
+.job--item,
+.skill__item {
+  margin-bottom: 0.3rem;
+}
+/* ----------------- FORM  ----------------- */
+.section__contact {
+  margin-top: 2rem;
+  padding-inline: 5rem;
+}
+
+.section__contact .section--heading {
+  text-align: center;
+}
+
+form > .input-group + .input-group {
+  margin-top: 2rem;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+textarea {
+  resize: none;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+
+  background-color: green;
+  color: white;
+  font-size: 1.2rem;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.btn + .btn {
+  margin-left: 1.5rem;
+}
+
+/* ----------------- BTN CALL ME  ----------------- */
+.btn-call-me {
+  width: 4.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid green;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.btn-call-me span {
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.fas {
+  width: 100%;
+  color: green;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+/* ----------------- SKILL AND EXPERIENCE  ----------------- */
+.bg-bobby {
+  position: fixed;
+  top: 10vh;
+  left: 5vw;
+  width: 20%;
+  z-index: -1;
+}
+
+nav {
+  font-size: 2.5rem;
+  color: white;
+  background-color: red;
+  position: sticky;
+  inset: 0;
+  text-align: center;
+  z-index: 1;
+}
